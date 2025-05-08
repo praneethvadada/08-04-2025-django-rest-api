@@ -15,7 +15,7 @@ import mongoengine
 
 mongoengine.connect(
     db='testdb',
-    host='mongodb+srv://praneeth24vadada:praneeth24vadada@cluster0.tvtrhku.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+    host='mongodb+srv://abcdef:abcdefpassword@cluster0.tvtrhku.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
      authentication_source="admin"
 )
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
