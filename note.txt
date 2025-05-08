@@ -1,0 +1,24 @@
+python -m venv env
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+./env/Scripts/Activate.ps1
+
+
+pip install django djangorestframework mongoengine
+
+pip list
+
+django-admin startproject myproject
+
+
+cd myproject
+
+
+python manage.py startapp myapp
+
+
+python manage.py run server
+
+
