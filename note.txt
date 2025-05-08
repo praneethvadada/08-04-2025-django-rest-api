@@ -19,6 +19,15 @@ cd myproject
 python manage.py startapp myapp
 
 
-python manage.py run server
+python manage.py runserver
 
 
+
+
+
+
+
+
+curl -X POST http://127.0.0.1:8000/api/books/ \
+     -H "Content-Type: application/json" \
+     -d '{"title": "Django for Beginners", "author": "William S. Vincent", "pages": 250}'
