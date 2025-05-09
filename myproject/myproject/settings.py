@@ -15,7 +15,7 @@ import mongoengine
 
 mongoengine.connect(
     db='testdb',
-    host='mongodb+srv://praneeth24vadada:<db_password>@cluster0.tvtrhku.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+    host='',
     authentication_source="admin"
 )
 
